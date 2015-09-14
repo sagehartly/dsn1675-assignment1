@@ -13,6 +13,26 @@ body {
   margin: 0;
 }
 
+h1 {
+  text-align: center;
+}
+
+nav {
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+
+  text-align: center;
+
+  clear: both;
+}
+
+.nav li {
+  float: left;
+  width: 25%;
+  list-style-type: none;
+}
+
 dl {
   list-style: none;
 }
