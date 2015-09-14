@@ -14,12 +14,13 @@ body {
 
 h1 {
   text-align: center;
+  margin: 0;
 }
 
 nav {
   margin: 0;
   overflow: hidden;
-  padding: 0;
+  padding: 1em 0 1em 0;
   text-align: center;
   clear: both;
 }
@@ -30,14 +31,33 @@ nav {
   list-style-type: none;
 }
 
+li {
+  list-style-type: none;
+}
+
 dl {
   list-style: none;
+  display:inline;
+}
+
+figure {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.banner-image {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .wonders {
   width: 100%;
+  padding: 1em 0 1em 0;
 }
 
 .atlantis {
   margin: 0;
+  width: 100%;
 }
