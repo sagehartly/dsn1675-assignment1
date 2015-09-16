@@ -79,11 +79,21 @@ figure {
 }
 
 h2 {
-clear: both;
+  clear: both;
+  text-align: center;
 }
 
 .left-button, .right-button {
   float: left;
   text-align: center;
   width: 50%;
+  padding: 1em 0 1em 0;
+}
+
+.this-week {
+  padding: 0;
+}
+
+.activities  {
+  padding: 0;
 }
