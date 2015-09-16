@@ -61,7 +61,7 @@ figure {
   width: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+
 }
 
 .banner-image {
@@ -69,11 +69,12 @@ figure {
   margin: 0;
   padding: 0;
   position: relative;
+  overflow: hidden;
 }
 
 .banner-text-1 {
   position: absolute;
-  top: 12rem;
+  top: 35%;
   color: white;
   text-align: center;
   width: 100%;
@@ -86,11 +87,6 @@ figure {
   overflow: hidden;
 }
 
-.atlantis {
-  margin: 0;
-  width: 100%;
-}
-
 h2 {
   clear: both;
   text-align: center;
@@ -101,6 +97,15 @@ h2 {
   text-align: center;
   width: 50%;
   padding: 1em 0 1em 0;
+}
+
+.banner-text-2 {
+  position: absolute;
+  bottom: 5rem;
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
 }
 
 .this-week {
