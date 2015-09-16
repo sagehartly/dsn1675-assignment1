@@ -10,6 +10,7 @@ html {
 body {
   font-size: 12px;
   margin: 0 1em 0 1em;
+  font-family: 'Roboto', cursive;
 }
 
 h1 {
@@ -60,17 +61,29 @@ figure {
   width: 100%;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 .banner-image {
   width: 100%;
   margin: 0;
   padding: 0;
+  position: relative;
+}
+
+.banner-text-1 {
+  position: absolute;
+  top: 12rem;
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
 }
 
 .wonders {
   width: 100%;
   padding: 1em 0 1em 0;
+  overflow: hidden;
 }
 
 .atlantis {
@@ -94,6 +107,20 @@ h2 {
   padding: 0;
 }
 
+h3 {
+  margin: 1em 0 0 0;
+}
+
 .activities  {
+  padding: 0 0 0 1em;
+}
+
+.contact {
+  padding: 0;
+}
+
+.footer-nav {
+  margin: 0;
+  text-align:left;
   padding: 0;
 }
