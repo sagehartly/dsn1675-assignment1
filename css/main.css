@@ -33,7 +33,6 @@ h1 {
   text-align: center;
   float: right;
   font-size: 16px;
-  background-color: lightblue;
 }
 
 a:hover {
@@ -81,26 +80,21 @@ dd {
 
 figure {
   width: 100%;
+  position: relative;
   margin: 0;
-  padding: 0;
 }
 
 .banner-image {
   width: 100%;
   margin: 0;
-  padding: 0;
-  position: relative;
-  overflow: hidden;
-
 }
 
-.banner-text-1 {
+.banner-text {
   position: absolute;
-  top: 25%;
+  bottom: 1rem;
   color: white;
   text-align: center;
   width: 100%;
-  font-size: 14px;
 }
 
 .wonders {
@@ -117,6 +111,11 @@ h2 {
   padding: 0.75em 0 0 0;
   border-top-style: solid;
   border-top-width: thin;
+  display: block;
+}
+
+.seven-wonders {
+  border-top-style: none;
 }
 
 .tickets-text {
@@ -130,13 +129,13 @@ h2 {
   padding: 0 0 1em 0;
 }
 
-.banner-text-2 {
+.banner-text {
   position: absolute;
-  bottom: 5rem;
+  bottom: 1rem;
   color: white;
   text-align: center;
   width: 100%;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .this-week {
@@ -145,6 +144,11 @@ h2 {
 
 h3 {
   margin: 0.25em 0 0 0;
+}
+
+footer {
+  border-top-style: solid;
+  border-top-width: thin;
 }
 
 .activities  {
