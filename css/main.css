@@ -142,6 +142,13 @@ figure {
   width: 100%;
 }
 
+@media only screen and (min-width: 20em) {
+
+  .banner-text {
+    padding: 0 3em;
+  }
+}
+
 /*-------------seven wonders----------*/
 
 h2 {
@@ -203,7 +210,22 @@ dd {
   float: left;
   text-align: center;
   width: 50%;
-  padding: 0 0 1em 0;
+  padding: 1em;
+  background-color: lavender;
+  border-style: solid;
+  border-width: thick;
+  border-color: white;
+  border-radius: 13px;
+}
+
+.buy-tix-section {
+  margin: 0 0 1em 0;
+}
+
+/*-------------now playing----------*/
+
+.banner-2 {
+  margin: 1em 0;
 }
 
 /*-------------this week----------*/
@@ -222,6 +244,7 @@ footer {
   border-top-style: solid;
   border-top-width: thin;
   margin: 0 1em 0 1em;
+  background-color: lavender;
 }
 
 .activities  {
