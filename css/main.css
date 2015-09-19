@@ -7,77 +7,80 @@ html {
   box-sizing: inherit;
 }
 
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
 body {
-  font-size: 12px;
+  font-size: 0.75rem;
   margin: 0;
   font-family: 'Roboto', cursive;
 }
 
+/*-------------HEADER----------*/
+
+a {
+  text-decoration: none;
+}
+
 .logo {
-  float: left;
-  width: 15%;
-  margin: 0.5em 0 0 0;
+  margin: 0 auto;
+  width: 5em;
+}
+
+.buy-button {
+  text-align: center;
+  width: 65%;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 4px;
+  background-color: lightgrey;
+  margin: auto;
+  padding: 0.5em 0;
 }
 
 h1 {
   text-align: center;
+  padding: 0 0 0.5em 0;
   margin: 0;
-  width: 70%;
-  float: left;
-  display: inline;
-  margin: 0.5em 0 0 0;
-}
-
-.buy-button {
-  width: 15%;
-  text-align: center;
-  float: right;
-  font-size: 16px;
+  clear: both;
 }
 
 a:hover {
   color: lavender;
 }
 
-nav {
+.nav a {
+  display: block;
+  padding: 0.25em 1em 0.25em 1em;
+}
+
+.nav {
+  padding: 0;
   margin: 0;
-  overflow: hidden;
-  padding: 1em 0 1em 0;
-  text-align: center;
-  clear: both;
+  background-color: lightgrey;
 }
 
 .nav li {
-  float: left;
-  width: 25%;
   list-style-type: none;
-}
-
-li {
-  list-style-type: none;
-}
-
-dl {
-  list-style: none;
-  display:inline;
-}
-
-dt {
-  float: left;
-  clear: both;
-  margin: 0 1em 0 1em;
-}
-
-dd {
-  float: left;
-  margin: 0 0 0 0.25em;
-}
-
-.wonders-link {
+  margin: 0;
+  padding: 0.5em 0 0.5em 0;
   text-align: center;
-  clear: both;
-  padding: 1em 0 0 0;
+  display: block;
+  width: 100%;
 }
+
+/*-------------BANNER----------*/
 
 figure {
   width: 100%;
@@ -98,6 +101,23 @@ figure {
   width: 100%;
 }
 
+/*-------------seven wonders----------*/
+
+h2 {
+  clear: both;
+  text-align: center;
+  font-weight: 700;
+  padding: 0.75em 0 0.25em 0;
+  border-top-style: solid;
+  border-top-width: thin;
+  display: block;
+  margin: 0;
+}
+
+.seven-wonders {
+  border-top-style: none;
+}
+
 .wonders {
   width: 100%;
   padding: 1em 0 0 0;
@@ -105,23 +125,37 @@ figure {
   margin: 0 1em 0 1em;
 }
 
-h2 {
-  clear: both;
-  text-align: center;
-  font-size: 22px;
-  font-weight:700;
-  padding: 0.75em 0 0 0;
-  border-top-style: solid;
-  border-top-width: thin;
-  display: block;
+h3 {
+  margin: 0.25em 1em 0 1em;
 }
 
-.seven-wonders {
-  border-top-style: none;
+dl {
+  list-style: none;
+  display: inline;
 }
+
+dt {
+  float: left;
+  clear: both;
+  margin: 0 1em 0 1em;
+}
+
+dd {
+  float: left;
+  margin: 0 0 0 0.25em;
+}
+
+.wonders-link {
+  text-align: center;
+  clear: both;
+  padding: 1em 0 0 0;
+}
+
+/*-------------buy tix----------*/
 
 .tickets-text {
   text-align: center;
+  padding: 0 0.5em 0 0.5em;
 }
 
 .left-button, .right-button {
@@ -131,22 +165,17 @@ h2 {
   padding: 0 0 1em 0;
 }
 
-.banner-text {
-  position: absolute;
-  bottom: 1rem;
-  color: white;
-  text-align: center;
-  width: 100%;
-  font-size: 13px;
-}
+/*-------------this week----------*/
 
 .this-week {
   padding: 0;
 }
 
-h3 {
-  margin: 0.25em 1em 0 1em;
+.activities li {
+  list-style-type: none;
 }
+
+/*-------------footer----------*/
 
 footer {
   border-top-style: solid;
@@ -162,8 +191,13 @@ footer {
   padding: 0;
 }
 
+.contact li {
+  list-style-type: none;
+}
+
 .footer-nav {
   margin: 0;
   text-align:left;
   padding: 0;
+  list-style-type: none;
 }
