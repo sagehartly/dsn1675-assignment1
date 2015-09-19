@@ -140,6 +140,7 @@ figure {
   color: white;
   text-align: center;
   width: 100%;
+  text-shadow: -1px 1px 4px rgba(0,0,0,0.8), 1px 1px 4px rgba(0,0,0,0.8);
 }
 
 @media only screen and (min-width: 20em) {
@@ -156,8 +157,6 @@ h2 {
   text-align: center;
   font-weight: 700;
   padding: 0.75em 0 0.25em 0;
-  border-top-style: solid;
-  border-top-width: thin;
   display: block;
   margin: 0;
 }
@@ -203,7 +202,14 @@ dd {
 
 .tickets-text {
   text-align: center;
-  padding: 0 0.5em 0 0.5em;
+  padding: 0.5em 0.75em 0.5em 0.75em;
+  margin: 0;
+}
+
+.h3-tix {
+padding: 1em 0 0 0;
+  text-align: center;
+  clear: both;
 }
 
 .left-button, .right-button {
@@ -218,11 +224,19 @@ dd {
   border-radius: 13px;
 }
 
-.buy-tix-section {
-  margin: 0 0 1em 0;
+@media only screen and (min-width: 20em) {
+
+  .tickets-text {
+    padding: 0.5em 3em;
+  }
 }
 
+
 /*-------------now playing----------*/
+
+.now-playing {
+  margin-top: 1em;
+}
 
 .banner-2 {
   margin: 1em 0;
@@ -236,6 +250,11 @@ dd {
 
 .activities li {
   list-style-type: none;
+}
+
+.banner-text a {
+  color: white;
+  text-decoration: underline;
 }
 
 /*-------------footer----------*/
