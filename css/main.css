@@ -202,7 +202,12 @@ dd {
 
   .wonders {
     width: 60%;
-    margin: 0 auto;
+    padding: 0.5em;
+  }
+
+  .wonders-group {
+    width: 100%;
+    text-align: center;
   }
 
 }
