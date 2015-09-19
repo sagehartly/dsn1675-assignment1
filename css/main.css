@@ -27,7 +27,7 @@ body {
   font-family: 'Roboto', cursive;
 }
 
-/*-------------HEADER----------*/
+/*-------------masthead----------*/
 
 a {
   text-decoration: none;
@@ -35,26 +35,45 @@ a {
 
 .logo {
   margin: 0 auto;
-  width: 5em;
+  width: 25%;
+  padding: 0.5em;
 }
 
 .buy-button {
   text-align: center;
-  width: 65%;
+  width: 45%;
   text-decoration: none;
   font-size: 1rem;
   border-radius: 4px;
   background-color: lightgrey;
   margin: auto;
   padding: 0.5em 0;
+  font-weight: bold;
 }
 
 h1 {
   text-align: center;
-  padding: 0 0 0.5em 0;
+  padding: 0.5em 0 0.5em 0;
   margin: 0;
   clear: both;
 }
+
+@media only screen and (min-width: 20em) {
+
+  .logo {
+    float: left;
+    width: 25%;
+  }
+
+  .buy-button {
+    float: right;
+    width: 45%;
+    padding: 0.5em;
+    vertical-align: middle;
+    margin: 0.5em;
+  }
+
+/*-----------NAV----------*/
 
 a:hover {
   color: lavender;
