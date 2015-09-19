@@ -44,8 +44,8 @@ a {
   width: 45%;
   text-decoration: none;
   font-size: 1rem;
-  border-radius: 4px;
-  background-color: lightgrey;
+  border-radius: 8px;
+  background-color: lavender;
   margin: auto;
   padding: 0.5em 0;
   font-weight: bold;
@@ -73,10 +73,12 @@ h1 {
     margin: 0.5em;
   }
 
-/*-----------NAV----------*/
+}
+
+/*-----------------NAV-------------------------*/
 
 a:hover {
-  color: lavender;
+  color: #fff;
 }
 
 .nav a {
@@ -87,7 +89,7 @@ a:hover {
 .nav {
   padding: 0;
   margin: 0;
-  background-color: lightgrey;
+  background-color: lavender;
 }
 
 .nav li {
@@ -97,6 +99,26 @@ a:hover {
   text-align: center;
   display: block;
   width: 100%;
+}
+
+@media only screen and (min-width: 20em) {
+
+  .nav {
+    margin: 0;
+    overflow: hidden;
+    clear: both;
+    background-color: lavender;
+  }
+
+  .nav li {
+    float: left;
+    width: 25%;
+  }
+
+  .nav a {
+    padding: 0.5em;
+  }
+
 }
 
 /*-------------BANNER----------*/
@@ -219,4 +241,5 @@ footer {
   text-align:left;
   padding: 0;
   list-style-type: none;
+  background-color: none;
 }
