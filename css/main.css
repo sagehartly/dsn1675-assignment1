@@ -198,6 +198,17 @@ dd {
   padding: 1em 0 0 0;
 }
 
+@media only screen and (min-width: 30em) {
+
+  .wonders {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+}
+
+
+
 /*-------------buy tix----------*/
 
 .tickets-text {
@@ -264,6 +275,7 @@ padding: 1em 0 0 0;
 .activities li {
   list-style-type: none;
   padding-right: 2em;
+
 }
 
 /*-------------footer----------*/
