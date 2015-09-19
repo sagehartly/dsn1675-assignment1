@@ -242,33 +242,39 @@ padding: 1em 0 0 0;
   margin: 1em 0;
 }
 
+.banner-text a {
+  color: white;
+  text-decoration: underline;
+}
+
 /*-------------this week----------*/
 
 .this-week {
   padding: 0;
 }
 
-.activities li {
-  list-style-type: none;
-}
-
-.banner-text a {
-  color: white;
-  text-decoration: underline;
-}
-
-/*-------------footer----------*/
-
-footer {
-  border-top-style: solid;
-  border-top-width: thin;
-  margin: 0 1em 0 1em;
-  background-color: lavender;
+.this-week h3 {
+  padding: 0.5em 0 0 0;
 }
 
 .activities  {
   padding: 0 0 0 2em;
 }
+
+.activities li {
+  list-style-type: none;
+  padding-right: 2em;
+}
+
+/*-------------footer----------*/
+
+footer {
+  padding: 1em;
+  background-color: lavender;
+}
+
+
+
 
 .contact {
   padding: 0;
