@@ -68,11 +68,33 @@ h1 {
 
   .buy-button {
     float: right;
-    width: 45%;
+    width: 50%;
     padding: 0.5em;
     margin: 1em 2em;
   }
 
+}
+
+@media only screen and (min-width: 43em) {
+
+  .logo {
+    width: 15%;
+  }
+
+  .buy-button {
+    margin: 1em 4em;
+    width: 15%;
+  }
+
+  h1 {
+    float: left;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  body {
+    font-size: 0.9rem;
+  }
 }
 
 /*-----------------NAV-------------------------*/
@@ -318,9 +340,6 @@ footer {
   background-color: lavender;
 }
 
-
-
-
 .contact {
   padding: 0;
 }
@@ -331,8 +350,16 @@ footer {
 
 .footer-nav {
   margin: 0;
-  text-align:left;
+  text-align: left;
   padding: 0;
   list-style-type: none;
-  background-color: none;
+}
+
+@media only screen and (min-width: 43em) {
+
+  .footer-1 {
+    width: 33.33%;
+    float: left;
+  }
+
 }
