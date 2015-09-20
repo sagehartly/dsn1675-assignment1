@@ -358,8 +358,21 @@ footer {
 @media only screen and (min-width: 43em) {
 
   .footer-1 {
-    width: 33.33%;
+    width: 40%;
     float: left;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-nav {
+    clear: both;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-nav li {
+    display: inline-block;
+    padding: 1em;
   }
 
 }
