@@ -29,13 +29,16 @@ body {
 
 /*-------------masthead----------*/
 
+header {
+  text-align: center;
+}
+
 a {
   text-decoration: none;
 }
 
 .logo {
-  margin: 0 auto;
-  width: 25%;
+  width: 35%;
   padding: 0.5em;
 }
 
@@ -63,12 +66,12 @@ h1 {
   .logo {
     float: left;
     width: 20%;
-    margin: 0 2em;
+    margin: 1em 2em;
   }
 
   .buy-button {
     float: right;
-    width: 50%;
+    width: 40%;
     padding: 0.5em;
     margin: 1em 2em;
   }
