@@ -22,9 +22,27 @@ html {
 }
 
 body {
-  font-size: 0.75rem;
+  font-size: 100%;
   margin: 0;
   font-family: 'Roboto', cursive;
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.6;
+  }
+
 }
 
 /*-------------masthead----------*/
@@ -97,8 +115,10 @@ h1 {
     text-align: center;
   }
 
+
   body {
-    font-size: 0.9rem;
+    font-size: 110%;
+    line-height: 1.4;
   }
 }
 
@@ -415,5 +435,32 @@ footer {
 
   .footer-nav li {
     padding: 1em 2.5em;
+  }
+
+}
+
+/*-----------------PRINT INSTRUCTIONS---------*/
+
+@media print {
+
+  nav {
+    display: none;
+  }
+
+  .buy-button {
+    display: none;
+  }
+
+  .wonders {
+    width: 50%;
+  }
+
+  .wonders-group {
+    margin: 0 auto;
+  }
+
+  .banner-text {
+    color: white;
+  }
 
 }
