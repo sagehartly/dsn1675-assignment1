@@ -461,9 +461,14 @@ footer {
     padding: 0 0 0 1em;
   }
 
+/* Thomas - I tried adding a text shadow and I tried changing the font colour to the lightest grey
+I could and nothing workes to show the banner text
+
   .banner-text {
-    color: white;
+    text-shadow: 2px -4px 6px black;
+    color: #fefeff;
   }
+  */
 
   .wonders-group a {
     color: #999;
@@ -480,8 +485,6 @@ footer {
 
   .banner-text {
     color: white;
-  }
-
   }
 
 }
