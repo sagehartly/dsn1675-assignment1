@@ -467,6 +467,20 @@ footer {
 
   .wonders-group a {
     color: #999;
+  }
+
+  .h3-tix {
+    padding: 0;
+  }
+
+  .banner-2 {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .banner-text {
+    color: white;
+  }
 
   }
 
