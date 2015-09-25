@@ -315,7 +315,7 @@ dd {
 }
 
 .h3-tix {
-padding: 1em 0 0 0;
+  padding: 1em 0 0 0;
   text-align: center;
   clear: both;
 }
@@ -342,12 +342,13 @@ padding: 1em 0 0 0;
 @media only screen and (min-width: 30em) {
 
   .left-button, .right-button {
-    margin: 0 4em;
+    margin: 0 3em;
     width: 30%;
   }
 
     .tickets-text {
-      padding: 0.5em 5em;
+      max-width: 36em;
+      margin: 0 auto;
     }
 
 }
@@ -452,11 +453,21 @@ footer {
   }
 
   .wonders {
-    width: 50%;
+    width: 40%;
+  }
+
+  .wonders-link {
+    text-align: left;
+    padding: 0 0 0 1em;
   }
 
   .banner-text {
     color: white;
+  }
+
+  .wonders-group a {
+    color: #999;
+
   }
 
 }
